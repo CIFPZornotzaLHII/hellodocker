@@ -83,7 +83,7 @@ Explica en una o dos líneas qué significa cada uno de estos elementos. Escribe
 | `volumes` (dentro del servicio) | ¿Qué carpeta del contenedor se guarda y dónde? |
 | `volumes` (al final del fichero) | ¿Por qué se declaran también aquí? |
 
-Responde además a estas dos preguntas:
+Responde además a estas dos preguntas en la sección [✍️ Tus respuestas](#️-tus-respuestas):
 
 1. WordPress se conecta a la base de datos con `WORDPRESS_DB_HOST: db`. ¿Por qué basta con escribir `db`?
 2. Si ejecutas `docker compose down` y después `docker compose up -d`, ¿sigue estando tu WordPress instalado? ¿Por qué?
@@ -130,8 +130,8 @@ Abre <http://localhost:8081>. Verás una pantalla de login con tres campos. Rell
 
 Si todo va bien, verás la base de datos `exampledb` con las tablas de WordPress (`wp_posts`, `wp_users`…).
 
-**Preguntas:**
-
+**Preguntas:** 
+Responde en la sección [✍️ Tus respuestas](#️-tus-respuestas)
 1. ¿Qué hace `depends_on`?
 2. ¿Por qué el servidor es `db` y no `localhost`?
 
@@ -177,6 +177,7 @@ docker compose up -d
 ```
 
 **Preguntas:**
+Responde en la sección [✍️ Tus respuestas](#️-tus-respuestas)
 
 1. ¿Qué hace cada una de las tres variables `PMA_HOST`, `PMA_USER` y `PMA_PASSWORD`?
 2. Al ejecutar `docker compose up -d`, ¿qué contenedores se han recreado y cuáles no? ¿Por qué?
@@ -238,9 +239,8 @@ Pega aquí el contenido final de tu `docker-compose.yml`:
 
 ### Parte 3 · Fase 1
 
-1. **`PMA_ARBITRARY`:**
-2. **`depends_on`:**
-3. **¿Por qué `db` y no `localhost`?**
+1. **`depends_on`:**
+2. **¿Por qué `db` y no `localhost`?**
 
 ### Parte 3 · Fase 2
 
